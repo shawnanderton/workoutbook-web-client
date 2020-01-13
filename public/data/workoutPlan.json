@@ -1,0 +1,58 @@
+[
+	{
+		"Id": "0ba78da2-df35-428f-ac49-261c9cbcb3b4",
+		"name": "Test Plan",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"workouts": [
+			{
+				"Id": "31198da5-67c3-45a3-93ec-5ca0f3b87496",
+				"name": "Chest Workout",
+				"number": 1,
+				"exercises": [
+					{
+						"name": "Barbell Bench Press",
+						"exerciseId": "521757a5-1cb4-41d2-963c-99756745fc23",
+						"planSets": [
+							{
+								"number": 1,
+								"reps": 12,
+								"restAfter": 60000
+							},
+							{
+								"number": 2,
+								"reps": 10,
+								"restAfter": 60000
+							},
+							{
+								"number": 3,
+								"reps": 8,
+								"restAfter": 60000
+							}
+						]
+					},
+					{
+						"name": "Dumbell Bench Press",
+						"exerciseId": "e5a732a0-9322-4968-b996-944e9ddda625",
+						"planSets": [
+							{
+								"number": 1,
+								"reps": 12,
+								"restAfter": 60000
+							},
+							{
+								"number": 2,
+								"reps": 10,
+								"restAfter": 60000
+							},
+							{
+								"number": 3,
+								"reps": 8,
+								"restAfter": 60000
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

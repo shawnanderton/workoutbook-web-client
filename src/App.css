@@ -1,0 +1,15 @@
+main {
+	height: calc(100% - 202px);
+	width: 100%;
+	padding: 50px;
+	overflow-y: auto;
+}
+
+#banner {
+	background-color: red;
+	width: 100%;
+	height: 150px;
+}
+.set {
+	vertical-align: middle;
+}

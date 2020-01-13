@@ -1,0 +1,13 @@
+html,
+body {
+	height: 100vh;
+	overflow: hidden;
+	max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid slateblue;
+}
+
+#root {
+  overflow: hidden;
+  height: 100%;
+}

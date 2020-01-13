@@ -1,0 +1,16 @@
+nav {
+	padding: 0 30px;
+	display: flex !important;
+	height: 52px;
+	align-items: center;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	font-size: 24px;
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #616161;
+}
+
+nav > a {
+	color: white;
+}
