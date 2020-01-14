@@ -2,7 +2,8 @@ import React, { Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 
-import WorkOutPage from './components/WorkoutPage/WorkoutPage';
+import WorkoutPlanPage from './components/WorkoutPlanPage/WorkoutPlanPage';
+import Workout from './components/Workout/Workout';
 import UserContext from './components/UserContext';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,7 +20,12 @@ function App() {
 							<Route
 								path="/workout-page"
 								exact
-								component={WorkOutPage}
+								component={WorkoutPlanPage}
+							/>
+							<Route
+								path="/workout"
+								exact
+								component={Workout}
 							/>
 						</Switch>
 					</main>

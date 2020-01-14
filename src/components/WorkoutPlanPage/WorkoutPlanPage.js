@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { getActiveUserPlan } from '../../services/userWorkout';
 import { getWorkoutPlanById } from '../../services/workoutPlans';
 
-function WorkoutPage() {
+function WorkoutPlanPage() {
 	const [plan, setPlan] = useState({});
 	const [userActivePlan, setUserActivePlan] = useState({});
 	const [exercises, SetExercises] = useState([]);
@@ -61,4 +60,4 @@ function WorkoutPage() {
 	);
 }
 
-export default WorkoutPage;
+export default WorkoutPlanPage;
